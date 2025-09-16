@@ -3,6 +3,7 @@ import EpisodeList from "./components/EpisodeList.jsx";
 import EpisodeCard from "./components/EpisodeCard.jsx";
 import WhereToListen from "./components/WhereToListen.jsx";
 import AboutPodcast from "./components/AboutPodcast.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <EpisodeCard/>
             <WhereToListen/>
             <AboutPodcast/>
+            <Footer/>
         </>
 
     );
