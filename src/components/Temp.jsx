@@ -7,7 +7,6 @@ Grab attention, highlight the tagline, and drive users to “Listen Now.”
 * */
 function HeroSection() {
     return (
-        // <header> wrapper
         <header className="bg-gray-900 text-white">
             <div className="container mx-auto px-6 py-20 text-center">
                 {/* You can replace this with your actual logo */}
@@ -32,7 +31,6 @@ function HeroSection() {
                 <a href="#episodes" className="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full text-lg transition duration-300 ease-in-out transform hover:scale-105">Listen Now</a>
             </div>
         </header>
-
-    )
+    );
 }
 export default HeroSection;
